@@ -1,0 +1,39 @@
+--create table person3(id int PRIMARY KEY,first_name varchar(34),last_name varchar(45));
+--insert into person3(id,first_name,last_name)
+--values(1005,'F5','L5');
+select * from person3;
+
+
+--create table address3(id int PRIMARY KEY,address varchar(34),city varchar(45),state varchar(34),zipcode bigint);
+--select * from address3;
+--insert into address3(id,address,city,state,zipcode)
+--values(2001,'A1','Thane','Mharastra',1234);
+--values(2002,'A2','Badlapur','Mumbai','2345');
+--values(2003,'A3','Ambernath','Kalyan',3456);
+--values(2004,'A4','Kalyan','Nerul',4567);
+--values(2005,'A5','Airoli','Bhandup',5678)
+select * from address3
+ 
+
+    MANY TO MANY
+
+--create table person3(id int PRIMARY KEY,first_name varchar(34),last_name varchar(45));
+--insert into person3(id,first_name,last_name)
+--values(1005,'F5','L5');
+--select * from person3;
+--create table address3(id int PRIMARY KEY,address varchar(34),city varchar(45),state varchar(34),zipcode bigint);
+--select * from address3;
+--insert into address3(id,address,city,state,zipcode)
+--values(2001,'A1','Thane','Mharastra',1234);
+--values(2002,'A2','Badlapur','Mumbai','2345');
+--values(2003,'A3','Ambernath','Kalyan',3456);
+--values(2004,'A4','Kalyan','Nerul',4567);
+--values(2005,'A5','Airoli','Bhandup',5678)
+--select * from address3
+
+--create table person_address(id int PRIMARY KEY,person_id int,address_id int);
+--insert into person_address(id,person_id,address_id)
+--values(3001,1001,2001);
+--values(3002,1002,2001);
+--values(3003,1003,2001);
+select * from person_address;
